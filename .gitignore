@@ -47,3 +47,4 @@ next-env.d.ts
 # ROSTR Hub (local dev)
 .rostr/hub/local/*
 !.rostr/hub/local/.gitkeep
+.env*
