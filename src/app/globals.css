@@ -6,6 +6,22 @@
   --font-inter: 'Inter', system-ui, sans-serif;
   --font-libre-baskerville: 'Libre Baskerville', Georgia, serif;
   --font-ibm-plex-mono: 'IBM Plex Mono', monospace;
+
+  /* Artispreneur Landing Colors */
+  --black: #09090b;
+  --black-light: #111113;
+  --surface: #18181b;
+  --card: #1c1c1f;
+  --border: #27272a;
+  --border-light: #3f3f46;
+  --text: #fafafa;
+  --text-muted: #a1a1aa;
+  --text-dim: #71717a;
+  --gold: #c9a227;
+  --gold-light: #e8c84a;
+  --gold-muted: rgba(201, 162, 39, 0.12);
+  --radius: 8px;
+  --radius-lg: 16px;
 }
 
 * {

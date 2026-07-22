@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Inter, Libre_Baskerville, IBM_Plex_Mono } from 'next/font/google';
+import { Inter, Playfair_Display, IBM_Plex_Mono } from 'next/font/google';
 import './globals.css';
 
 const inter = Inter({
@@ -8,10 +8,10 @@ const inter = Inter({
   display: 'swap',
 });
 
-const libreBaskerville = Libre_Baskerville({
-  weight: ['400', '700'],
+const playfairDisplay = Playfair_Display({
+  weight: ['700', '800', '900'],
   subsets: ['latin'],
-  variable: '--font-libre-baskerville',
+  variable: '--font-playfair',
   display: 'swap',
 });
 
@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${libreBaskerville.variable} ${ibmPlexMono.variable}`}>
+    <html lang="en" className={`${inter.variable} ${playfairDisplay.variable} ${ibmPlexMono.variable}`}>
       <body className="font-sans antialiased bg-dark text-white">
         {children}
       </body>
