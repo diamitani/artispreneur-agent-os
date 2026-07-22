@@ -41,7 +41,7 @@ export default function HomePage() {
           </h1>
 
           <p className="text-[clamp(17px,2.2vw,21px)] text-gray-400 max-w-[620px] mx-auto mb-10 font-normal leading-relaxed">
-            We help artists become entrepreneurs. Artispreneur OS equips you with a personalized AI assistant workspace that handles everything a label does — PROs, distribution, legal, finance, and more.
+            We help artists become entrepreneurs. Artispreneur OS equips you with a personalized AI assistant workspace that handles everything a label does – PROs, distribution, legal, finance, and more.
           </p>
 
           <div className="flex items-center justify-center gap-4 flex-wrap">
@@ -194,7 +194,7 @@ export default function HomePage() {
             {[
               { icon: '✦', title: 'Prompt Library', desc: 'Pre-built prompts designed for artists to accelerate every part of their career.' },
               { icon: '⚙', title: 'Skills Marketplace', desc: 'Browse, install, or create custom skills for specific music industry tasks.' },
-              { icon: '📁', title: 'Output Manager', desc: 'Smart folder system tracks drafts and versions so you always know what's current.' },
+              { icon: '📁', title: 'Output Manager', desc: "Smart folder system tracks drafts and versions so you always know what's current." },
               { icon: '📚', title: 'Centralized Knowledge Base', desc: 'All Artispreneur files — contracts, courses, articles, directories — in one searchable place.' },
               { icon: '👥', title: 'Contact Directory', desc: 'Quick access to artists, labels, supervisors, venues, radio, blogs, podcasts, and studios.' },
               { icon: '🎓', title: 'Academy', desc: 'Courses, articles, templates, video resources, and industry education.' }
